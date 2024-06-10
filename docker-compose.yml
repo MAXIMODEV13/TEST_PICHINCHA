@@ -1,0 +1,9 @@
+version: "3"
+services:
+  java_app:
+    container_name: java_app
+    # cambiar nomnbre de la imagen
+    image: springbooot-app
+    build: .
+    ports:
+      - "8080:8080"
